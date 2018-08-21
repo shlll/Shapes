@@ -1,0 +1,126 @@
+.wrapper {
+    width: 25%;
+    padding: 10x;
+    float: left;
+    height: 300px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.square {
+    width: 200px;
+    height: 200px;
+    background: #fed3ca;
+    box-sizing: border-box;
+    
+}
+
+
+.retangle {
+    width: 200px;
+    height: 100px;
+    background: #2eb7ed;
+  
+}
+
+
+.circle {
+    height: 200px;
+    width: 200px;
+    background: #11309B;
+    border-radius: 100%;
+    
+}
+
+
+.semicircle {
+    height: 100px;
+    width: 200px;
+    background: #D65E2A;
+    border-radius: 100px 100px 0 0;
+   
+}
+
+
+
+.oval {
+    width: 200px;
+    height: 100px;
+    background: #1C951A;
+    border-radius: 100px/50px;
+    
+    
+}
+
+.triangle {
+    width: 0px;
+    height: 0px;
+    border-width: 100px;
+    border-style: solid;
+    border-color: #8D0EEE transparent transparent transparent;
+    
+}
+
+.trapezoid {
+    width: 200px;
+    height: 0;
+    border-width: 100px;
+    border-style: solid;
+    border-color: transparent transparent #6ACFEE transparent;
+    
+}
+
+
+.diamond {
+    width: 100px;
+    height: 100px;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    background: #0CCEf2;
+    margin-left: 90px;
+    margin-top: 30px;
+
+}
+
+
+.moon {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 0 #0F93AA;
+    
+}
+
+
+.leaf {
+    width: 200px;
+    height: 200px;
+    background: rgba(0, 255, 0, .5);
+    box-shadow: 2px 1px 1px rgba(0, 0, 0, .1);
+    border-radius: 3px 200px;
+    
+}
+
+
+.bookmark {
+    width: 0;
+    height: 200px;
+    border-left: 50px solid #A26D14;
+    border-right: 50px solid #A26D14;
+    border-bottom: 40px solid transparent;
+    
+}
+
+
+
+
+.parallelogram{
+    height:100px;
+    width:200px;
+    background:#13AD6D;
+    -webkit-transform:skew(-20deg);
+            transform:skew(-20deg);
+   
+}
